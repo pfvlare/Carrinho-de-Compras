@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 colunas de largura igual */
+  gap: 10px; /* Espaçamento entre os itens da grid */
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto; /* Centraliza horizontalmente o contêiner da grid */
+}
+
+.produto {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain; /* Ajusta a imagem para caber dentro da área definida */
+}
+
+.adicionar {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.adicionar:hover {
+  background-color: #45a049;
+}
+
+.carrinho {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  margin-left: auto;
+}
+
+.carrinho h2 {
+  margin-top: 0;
+}
+
+.itens-carrinho {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.itens-carrinho th,
+.itens-carrinho td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.itens-carrinho th {
+  background-color: #f2f2f2;
+}
+
+.itens-carrinho tfoot {
+  font-weight: bold;
+}
+
+.itens-carrinho tfoot td {
+  border-top: 2px solid #ddd;
+}
+
+.hidden {
+  display: none;
+}

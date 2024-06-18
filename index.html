@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="produtos">
+    <!-- A grid de produtos será preenchida dinamicamente pelo JavaScript -->
+  </div>
+
+  <div class="carrinho hidden" id="CarrinhoJanela">
+    <h2>Carrinho</h2>
+    <table class="itens-carrinho">
+      <thead>
+        <tr>
+          <th>Nome do Produto</th>
+          <th>Preço</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td id="total-valor">R$0.00</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <button id="fecharCarrinho">Fechar</button>
+  </div>
+
+  <div class="Botao-Carrinho Adicionar" id="BotaoCarrinho">
+    <button class="adicionar">Carrinho</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
