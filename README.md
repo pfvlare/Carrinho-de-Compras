@@ -46,4 +46,3 @@ Tudo isso de forma prática e interativa, com código limpo e leve — ideal par
 
 ```bash
 git clone https://github.com/pfvlare/carrinho-de-compras.git
-cd carrinho-de-compras
