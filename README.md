@@ -45,5 +45,5 @@ Tudo isso de forma prática e interativa, com código limpo e leve — ideal par
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/carrinho-de-compras.git
+git clone https://github.com/pfvlare/carrinho-de-compras.git
 cd carrinho-de-compras
